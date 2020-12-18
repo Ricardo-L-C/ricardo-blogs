@@ -13,7 +13,7 @@
         <link rel="icon" href="https://godr.top/blog/assets/images/icon.png">
     
     
-    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Ricardo","sameAs":["https://github.com/Ricardo-L-C/","mailto:ricardolcao@gmail.com"],"image":"avatar.png"},"articleBody":"\n\n1. https://fakeimg.plhttps://fakeimg.pl/&#123;分辨率&#125;/&#123;背景色&#125;/&#123;字体色&#125;/?text=&#123;文字内容&#125;&amp;&#123;可选项&#125;\n\n可选字体有font=lobster、font=bebas、font=museo；使用font=noto以支持中文、日文或韩文。\n使用font_size改变字体大小，如font_size=20。\n使用retina=1会使图片放大一倍。\n可选透明度(0-255)，如https://fakeimg.pl/350x200/ff0000,128/000,10。\n一些示例：\n12345678&lt;img src=&quot;https://fakeimg.pl/300/&quot;&gt;&lt;img src=&quot;https://fakeimg.pl/250x100/&quot;&gt;&lt;img src=&quot;https://fakeimg.pl/250x100/ff0000/&quot;&gt;&lt;img src=&quot;https://fakeimg.pl/350x200/ff0000/000&quot;&gt;&lt;img src=&quot;https://fakeimg.pl/350x200/ff0000,128/000,255&quot;&gt;&lt;img src=&quot;https://fakeimg.pl/350x200/?text=Hello&quot;&gt;&lt;img src=&quot;https://fakeimg.pl/200x100/?retina=1&amp;text=こんにちは&amp;font=noto&quot;&gt;&lt;img src=&quot;https://fakeimg.pl/350x200/?text=World&amp;font=lobster&quot;&gt;","dateCreated":"2020-12-01T17:14:03+08:00","dateModified":"2020-12-03T16:15:25+08:00","datePublished":"2020-12-01T17:14:03+08:00","description":"有趣的网站总是有着有趣的api喵","headline":"interesting-api","image":["https://fakeimg.pl/1920x800/67b8e3/fff/?text=こんにちわ&font=noto","https://fakeimg.pl/1920x800/67b8e3/fff/?text=こんにちわ&font=noto"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://godr.top/blog/2020/12/01/interesting-api/"},"publisher":{"@type":"Organization","name":"Ricardo","sameAs":["https://github.com/Ricardo-L-C/","mailto:ricardolcao@gmail.com"],"image":"avatar.png","logo":{"@type":"ImageObject","url":"avatar.png"}},"url":"https://godr.top/blog/2020/12/01/interesting-api/","keywords":"web, api","thumbnailUrl":"https://fakeimg.pl/1920x800/67b8e3/fff/?text=こんにちわ&font=noto"}</script>
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Ricardo","sameAs":["https://github.com/Ricardo-L-C/","mailto:ricardolcao@gmail.com"],"image":"avatar.png"},"articleBody":"\n\n1. https://fakeimg.plGET https://fakeimg.pl/&#123;分辨率&#125;/&#123;背景色&#125;/&#123;字体色&#125;/?text=&#123;文字内容&#125;&amp;&#123;可选项&#125;\n\nhttps://fakeimg.pl可以生成一张指定分辨率、文字内容并居中、颜色、背景色等选项的图片。\n可选字体有font=lobster、font=bebas、font=museo；使用font=noto以支持中文、日文或韩文。\n使用font_size改变字体大小，如font_size=20。\n使用retina=1会使图片放大一倍。\n可选透明度(0-255)，如https://fakeimg.pl/350x200/ff0000,128/000,10。\n一些示例：\n12345678&lt;img src=&quot;https://fakeimg.pl/300/&quot;&gt;&lt;img src=&quot;https://fakeimg.pl/250x100/&quot;&gt;&lt;img src=&quot;https://fakeimg.pl/250x100/ff0000/&quot;&gt;&lt;img src=&quot;https://fakeimg.pl/350x200/ff0000/000&quot;&gt;&lt;img src=&quot;https://fakeimg.pl/350x200/ff0000,128/000,255&quot;&gt;&lt;img src=&quot;https://fakeimg.pl/350x200/?text=Hello&quot;&gt;&lt;img src=&quot;https://fakeimg.pl/200x100/?retina=1&amp;text=こんにちは&amp;font=noto&quot;&gt;&lt;img src=&quot;https://fakeimg.pl/350x200/?text=World&amp;font=lobster&quot;&gt;\n\n\n2. https://ipapi.co/完整数据GET https://ipapi.co/&#123;ip&#125;/&#123;format&#125;/\nhttps://ipapi.co/可以方便地查询ip地址的所在位置与相关信息。\nformat可选的值为json，jsonp，xml，csv，yaml\n官方文档中描述的返回字段如下\n\n\n\n字段\n描述\n\n\n\nip\npublic (external) IP address (same as URL ip)\n\n\ncity\ncity name\n\n\nregion\nregion name (administrative division)\n\n\nregion_code\nregion code\n\n\ncountry\ncountry code (2 letter, ISO 3166-1 alpha-2)\n\n\ncountry_code\ncountry code (2 letter, ISO 3166-1 alpha-2)\n\n\ncountry_code_iso3\ncountry code (3 letter, ISO 3166-1 alpha-3)\n\n\ncountry_name\ncountry name\n\n\ncountry_capital\ncapital of the country\n\n\ncountry_tld\ncountry specific TLD (top-level domain)\n\n\ncountry_area\narea of the country (in sq km)\n\n\ncountry_population\npopulation of the country\n\n\ncontinent_code\ncontinent code\n\n\nin_eu\nwhether IP address belongs to a country that is a member of the European Union (EU)\n\n\npostal\npostal code / zip code\n\n\nlatitude\nlatitude\n\n\nlongitude\nlongitude\n\n\nlatlong\ncomma separated latitude and longitude\n\n\ntimezone\ntimezone (IANA format i.e. “Area/Location”)\n\n\nutc_offset\nUTC offset as +HHMM or -HHMM (HH is hours, MM is minutes)\n\n\ncountry_calling_code\ncountry calling code (dial in code, comma separated)\n\n\ncurrency\ncurrency code (ISO 4217)\n\n\ncurrency_name\ncurrency name\n\n\nlanguages\nlanguages spoken (comma separated 2 or 3 letter ISO 639 code with optional hyphen separated country suffix)\n\n\nasn\nautonomous system number\n\n\norg\norganinzation name\n\n\n具体数据GET https://ipapi.co/&#123;ip&#125;/&#123;field&#125;/\nfield字段的可选项为上表字段之一，返回值为对应项的纯文本。\n当前ip完整数据GET https://ipapi.co/&#123;format&#125;/\n若无ip字段则返回当前ip数据，format与前文完整数据一致。\n当前ip具体数据GET https://ipapi.co/&#123;field&#125;/\n若无ip字段则返回当前ip数据，field与前文具体数据一致。","dateCreated":"2020-12-01T17:14:03+08:00","dateModified":"2020-12-18T21:51:17+08:00","datePublished":"2020-12-01T17:14:03+08:00","description":"有趣的网站总是有着有趣的api喵","headline":"interesting-api","image":["https://fakeimg.pl/1920x800/67b8e3/fff/?text=こんにちわ&font=noto","https://fakeimg.pl/1920x800/67b8e3/fff/?text=こんにちわ&font=noto"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://godr.top/blog/2020/12/01/interesting-api/"},"publisher":{"@type":"Organization","name":"Ricardo","sameAs":["https://github.com/Ricardo-L-C/","mailto:ricardolcao@gmail.com"],"image":"avatar.png","logo":{"@type":"ImageObject","url":"avatar.png"}},"url":"https://godr.top/blog/2020/12/01/interesting-api/","keywords":"web, api","thumbnailUrl":"https://fakeimg.pl/1920x800/67b8e3/fff/?text=こんにちわ&font=noto"}</script>
     <meta name="description" content="有趣的网站总是有着有趣的api喵">
 <meta property="og:type" content="blog">
 <meta property="og:title" content="interesting-api">
@@ -23,7 +23,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://fakeimg.pl/800x400/67b8e3/fff/?text=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%82%8F&font=noto">
 <meta property="article:published_time" content="2020-12-01T09:14:03.000Z">
-<meta property="article:modified_time" content="2020-12-03T08:15:25.943Z">
+<meta property="article:modified_time" content="2020-12-18T13:51:17.190Z">
 <meta property="article:author" content="Ricardo">
 <meta property="article:tag" content="web">
 <meta property="article:tag" content="api">
@@ -115,7 +115,7 @@
                 </a>
                 <h4 class="sidebar-profile-name">Ricardo</h4>
                 
-                    <h5 class="sidebar-profile-bio"><p><a href="mailto:&#114;&#105;&#99;&#x61;&#x72;&#x64;&#111;&#108;&#x63;&#x61;&#111;&#64;&#x67;&#109;&#x61;&#105;&#108;&#46;&#x63;&#111;&#x6d;">&#114;&#105;&#99;&#x61;&#x72;&#x64;&#111;&#108;&#x63;&#x61;&#111;&#64;&#x67;&#109;&#x61;&#105;&#108;&#46;&#x63;&#111;&#x6d;</a><br><a href="mailto:&#114;&#x69;&#x63;&#97;&#114;&#x64;&#111;&#108;&#99;&#97;&#x6f;&#x40;&#113;&#113;&#x2e;&#99;&#x6f;&#109;">&#114;&#x69;&#x63;&#97;&#114;&#x64;&#111;&#108;&#99;&#97;&#x6f;&#x40;&#113;&#113;&#x2e;&#99;&#x6f;&#109;</a><br>From SUN YAT-SEN University</p>
+                    <h5 class="sidebar-profile-bio"><p><a href="mailto:&#114;&#x69;&#99;&#x61;&#x72;&#100;&#x6f;&#108;&#x63;&#x61;&#x6f;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;">&#114;&#x69;&#99;&#x61;&#x72;&#100;&#x6f;&#108;&#x63;&#x61;&#x6f;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;</a><br><a href="mailto:&#x72;&#x69;&#x63;&#97;&#114;&#100;&#111;&#x6c;&#x63;&#97;&#111;&#x40;&#113;&#x71;&#x2e;&#x63;&#x6f;&#x6d;">&#x72;&#x69;&#x63;&#97;&#114;&#100;&#111;&#x6c;&#x63;&#97;&#111;&#x40;&#113;&#x71;&#x2e;&#x63;&#x6f;&#x6d;</a><br>From SUN YAT-SEN University</p>
 </h5>
                 
             </div>
@@ -295,14 +295,139 @@
         <div class="main-content-wrap">
             <!-- excerpt -->
 
-<h1 id="1-https-fakeimg-pl"><a href="#1-https-fakeimg-pl" class="headerlink" title="1. https://fakeimg.pl"></a>1. <a target="_blank" rel="noopener" href="https://fakeimg.pl/">https://fakeimg.pl</a></h1><p><code>https://fakeimg.pl/&#123;分辨率&#125;/&#123;背景色&#125;/&#123;字体色&#125;/?text=&#123;文字内容&#125;&amp;&#123;可选项&#125;</code></p>
+<h1 id="1-https-fakeimg-pl"><a href="#1-https-fakeimg-pl" class="headerlink" title="1. https://fakeimg.pl"></a>1. <a target="_blank" rel="noopener" href="https://fakeimg.pl/">https://fakeimg.pl</a></h1><p><code>GET https://fakeimg.pl/&#123;分辨率&#125;/&#123;背景色&#125;/&#123;字体色&#125;/?text=&#123;文字内容&#125;&amp;&#123;可选项&#125;</code></p>
 <p><img src="https://fakeimg.pl/800x400/67b8e3/fff/?text=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%82%8F&font=noto"></p>
+<p><code>https://fakeimg.pl</code>可以生成一张指定分辨率、文字内容并居中、颜色、背景色等选项的图片。</p>
 <p>可选字体有<code>font=lobster</code>、<code>font=bebas</code>、<code>font=museo</code>；<br>使用<code>font=noto</code>以支持中文、日文或韩文。</p>
 <p>使用<code>font_size</code>改变字体大小，如<code>font_size=20</code>。</p>
 <p>使用<code>retina=1</code>会使图片放大一倍。</p>
 <p>可选透明度(0-255)，如<code>https://fakeimg.pl/350x200/ff0000,128/000,10</code>。</p>
 <p>一些示例：</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://fakeimg.pl/300/&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://fakeimg.pl/250x100/&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://fakeimg.pl/250x100/ff0000/&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://fakeimg.pl/350x200/ff0000/000&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://fakeimg.pl/350x200/ff0000,128/000,255&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://fakeimg.pl/350x200/?text=Hello&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://fakeimg.pl/200x100/?retina=1&amp;text=こんにちは&amp;font=noto&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://fakeimg.pl/350x200/?text=World&amp;font=lobster&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<h1 id="2-https-ipapi-co"><a href="#2-https-ipapi-co" class="headerlink" title="2. https://ipapi.co/"></a>2. <a target="_blank" rel="noopener" href="https://ipapi.co/">https://ipapi.co/</a></h1><h2 id="完整数据"><a href="#完整数据" class="headerlink" title="完整数据"></a>完整数据</h2><p><code>GET https://ipapi.co/&#123;ip&#125;/&#123;format&#125;/</code></p>
+<p><code>https://ipapi.co/</code>可以方便地查询ip地址的所在位置与相关信息。</p>
+<p><code>format</code>可选的值为<code>json</code>，<code>jsonp</code>，<code>xml</code>，<code>csv</code>，<code>yaml</code></p>
+<p>官方文档中描述的返回字段如下</p>
+<table>
+<thead>
+<tr>
+<th align="left">字段</th>
+<th align="left">描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">ip</td>
+<td align="left">public (external) IP address (same as URL ip)</td>
+</tr>
+<tr>
+<td align="left">city</td>
+<td align="left">city name</td>
+</tr>
+<tr>
+<td align="left">region</td>
+<td align="left">region name (administrative division)</td>
+</tr>
+<tr>
+<td align="left">region_code</td>
+<td align="left">region code</td>
+</tr>
+<tr>
+<td align="left">country</td>
+<td align="left">country code (2 letter, ISO 3166-1 alpha-2)</td>
+</tr>
+<tr>
+<td align="left">country_code</td>
+<td align="left">country code (2 letter, ISO 3166-1 alpha-2)</td>
+</tr>
+<tr>
+<td align="left">country_code_iso3</td>
+<td align="left">country code (3 letter, ISO 3166-1 alpha-3)</td>
+</tr>
+<tr>
+<td align="left">country_name</td>
+<td align="left">country name</td>
+</tr>
+<tr>
+<td align="left">country_capital</td>
+<td align="left">capital of the country</td>
+</tr>
+<tr>
+<td align="left">country_tld</td>
+<td align="left">country specific TLD (top-level domain)</td>
+</tr>
+<tr>
+<td align="left">country_area</td>
+<td align="left">area of the country (in sq km)</td>
+</tr>
+<tr>
+<td align="left">country_population</td>
+<td align="left">population of the country</td>
+</tr>
+<tr>
+<td align="left">continent_code</td>
+<td align="left">continent code</td>
+</tr>
+<tr>
+<td align="left">in_eu</td>
+<td align="left">whether IP address belongs to a country that is a member of the European Union (EU)</td>
+</tr>
+<tr>
+<td align="left">postal</td>
+<td align="left">postal code / zip code</td>
+</tr>
+<tr>
+<td align="left">latitude</td>
+<td align="left">latitude</td>
+</tr>
+<tr>
+<td align="left">longitude</td>
+<td align="left">longitude</td>
+</tr>
+<tr>
+<td align="left">latlong</td>
+<td align="left">comma separated latitude and longitude</td>
+</tr>
+<tr>
+<td align="left">timezone</td>
+<td align="left">timezone (IANA format i.e. “Area/Location”)</td>
+</tr>
+<tr>
+<td align="left">utc_offset</td>
+<td align="left">UTC offset as +HHMM or -HHMM (HH is hours, MM is minutes)</td>
+</tr>
+<tr>
+<td align="left">country_calling_code</td>
+<td align="left">country calling code (dial in code, comma separated)</td>
+</tr>
+<tr>
+<td align="left">currency</td>
+<td align="left">currency code (ISO 4217)</td>
+</tr>
+<tr>
+<td align="left">currency_name</td>
+<td align="left">currency name</td>
+</tr>
+<tr>
+<td align="left">languages</td>
+<td align="left">languages spoken (comma separated 2 or 3 letter ISO 639 code with optional hyphen separated country suffix)</td>
+</tr>
+<tr>
+<td align="left">asn</td>
+<td align="left">autonomous system number</td>
+</tr>
+<tr>
+<td align="left">org</td>
+<td align="left">organinzation name</td>
+</tr>
+</tbody></table>
+<h2 id="具体数据"><a href="#具体数据" class="headerlink" title="具体数据"></a>具体数据</h2><p><code>GET https://ipapi.co/&#123;ip&#125;/&#123;field&#125;/</code></p>
+<p><code>field</code>字段的可选项为上表字段之一，返回值为对应项的纯文本。</p>
+<h2 id="当前ip完整数据"><a href="#当前ip完整数据" class="headerlink" title="当前ip完整数据"></a>当前ip完整数据</h2><p><code>GET https://ipapi.co/&#123;format&#125;/</code></p>
+<p>若无<code>ip</code>字段则返回当前ip数据，<code>format</code>与前文<a href="##%E5%AE%8C%E6%95%B4%E6%95%B0%E6%8D%AE">完整数据</a>一致。</p>
+<h2 id="当前ip具体数据"><a href="#当前ip具体数据" class="headerlink" title="当前ip具体数据"></a>当前ip具体数据</h2><p><code>GET https://ipapi.co/&#123;field&#125;/</code></p>
+<p>若无<code>ip</code>字段则返回当前ip数据，<code>field</code>与前文<a href="##%E5%85%B7%E4%BD%93%E6%95%B0%E6%8D%AE">具体数据</a>一致。</p>
             
 
 
@@ -350,7 +475,7 @@
             <a
                 class="post-action-btn btn btn--default btn-open-shareoptions"
                 href="#btn-open-shareoptions"
-                aria-label="Diesen Beitrag teilen"
+                aria-label="Share this post"
             >
                 <i class="fa fa-share-alt" aria-hidden="true"></i>
             </a>
@@ -400,7 +525,7 @@
         
         <li class="post-action">
             
-                <a class="post-action-btn btn btn--default" href="#" aria-label="Nach oben">
+                <a class="post-action-btn btn btn--default" href="#" aria-label="Back to top">
             
                 <i class="fa fa-list" aria-hidden="true"></i>
             </a>
@@ -459,7 +584,7 @@
             <a
                 class="post-action-btn btn btn--default btn-open-shareoptions"
                 href="#btn-open-shareoptions"
-                aria-label="Diesen Beitrag teilen"
+                aria-label="Share this post"
             >
                 <i class="fa fa-share-alt" aria-hidden="true"></i>
             </a>
@@ -509,7 +634,7 @@
         
         <li class="post-action">
             
-                <a class="post-action-btn btn btn--default" href="#" aria-label="Nach oben">
+                <a class="post-action-btn btn btn--default" href="#" aria-label="Back to top">
             
                 <i class="fa fa-list" aria-hidden="true"></i>
             </a>
@@ -586,7 +711,7 @@
         
             <h4 id="about-card-name">Ricardo</h4>
         
-            <div id="about-card-bio"><p><a href="mailto:&#114;&#105;&#x63;&#97;&#114;&#100;&#111;&#108;&#x63;&#97;&#x6f;&#x40;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#x6d;">&#114;&#105;&#x63;&#97;&#114;&#100;&#111;&#108;&#x63;&#97;&#x6f;&#x40;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#x6d;</a><br><a href="mailto:&#114;&#105;&#x63;&#97;&#114;&#x64;&#111;&#x6c;&#99;&#x61;&#x6f;&#x40;&#x71;&#113;&#46;&#x63;&#x6f;&#x6d;">&#114;&#105;&#x63;&#97;&#114;&#x64;&#111;&#x6c;&#99;&#x61;&#x6f;&#x40;&#x71;&#113;&#46;&#x63;&#x6f;&#x6d;</a><br>From SUN YAT-SEN University</p>
+            <div id="about-card-bio"><p><a href="mailto:&#114;&#x69;&#99;&#97;&#x72;&#x64;&#111;&#x6c;&#99;&#97;&#x6f;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#111;&#109;">&#114;&#x69;&#99;&#97;&#x72;&#x64;&#111;&#x6c;&#99;&#97;&#x6f;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#111;&#109;</a><br><a href="mailto:&#114;&#x69;&#99;&#x61;&#x72;&#100;&#x6f;&#x6c;&#x63;&#x61;&#x6f;&#64;&#x71;&#x71;&#x2e;&#x63;&#x6f;&#x6d;">&#114;&#x69;&#99;&#x61;&#x72;&#100;&#x6f;&#x6c;&#x63;&#x61;&#x6f;&#64;&#x71;&#x71;&#x2e;&#x63;&#x6f;&#x6d;</a><br>From SUN YAT-SEN University</p>
 </div>
         
         
